@@ -4,6 +4,7 @@ can1=Canvas(fen1,bg='dark grey', height=500, width=500)
 can1.pack(side=LEFT)
 bou1=Button(fen1, text='quitter', command=fen1.quit)
 bou1.pack(side=BOTTOM)
+#bou2=Button(fen1, text='quitter', command=self.drawcircle())
 
 x=0
 y=0
